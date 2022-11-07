@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NLW COPA - Frontend
 
-## Getting Started
+<h1 align="center">
+    <img alt="NLW Copa" title="NLW_Copa" src="./src/assets/Wallpaper - 1920x1080.png" />
+</h1>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## :notebook_with_decorative_cover: 	Descrição do Projeto
+O Projeto foi desenvovlido no NLW Copa, evento disponibilizado pela [Rocketseat](https://lp.rocketseat.com.br/nlw) na trilha Ignite, nesse projeto desenvolvemos uma aplicação completa, [frontend](https://github.com/felippepg/nlw_copa_frontend), [backend](https://github.com/felippepg/nlw_copa_backend) e [mobile](https://github.com/felippepg/nlw_copa_mobile) e autenticação com o Google
+Esse repositório diz respeito ao Frontend, o mesmo foi construido em [Nextjs]().com Typescript e Tailwindcss para a estilização da página.
+Na parte web do projeto é possivel criar um bolão de apostas, onde essas informações são salvas no backend, porem não foi implementado a autenticação no frontend (somente no mobile).
+Para a aplicação funcionar com todas as funcionalidades descritas acima é necesssário ter o [backend](https://github.com/felippepg/nlw_copa_backend) configurado
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### :pushpin:	Home
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<h1 align="center">
+    <img alt="Home" title="Home" src="./src/assets/Home.PNG" />
+</h1>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🛠 Tecnologias
 
-## Learn More
+As seguintes tecnologias foram usadas na construção da API:
 
-To learn more about Next.js, take a look at the following resources:
+- [NODE](https://nodejs.org/en/)
+- [REACT](https://pt-br.reactjs.org/)
+- [TAILWINDCSS](https://tailwindcss.com/)
+- [NEXTJS](https://nextjs.org/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [x] Criação de bolões
